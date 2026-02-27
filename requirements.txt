@@ -1,0 +1,9 @@
+# ────────────────────────────────────────────────
+#  Heritage Restoration AI — requirements.txt
+#  Dành cho: Python 3.10+
+#  Cài đặt:  pip install -r requirements.txt
+# ────────────────────────────────────────────────
+
+streamlit>=1.35.0
+google-generativeai>=0.7.0
+Pillow>=10.0.0
