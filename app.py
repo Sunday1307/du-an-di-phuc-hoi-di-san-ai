@@ -153,7 +153,7 @@ def simulate_restoration(img: Image.Image) -> Image.Image:
 def analyze_with_gemini(api_key: str, pil_img: Image.Image) -> str:
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel('gemini-pro-vision')
         prompt = (
             "Bạn là chuyên gia bảo tồn di sản văn hóa. "
             "Hãy phân tích bức ảnh hiện vật này và trả lời theo cấu trúc sau (dùng tiếng Việt):\n\n"
